@@ -3,29 +3,29 @@ Autism Spectrum Disorder (ASD) Prediction using Machine Learning
 Autism Spectrum Disorder (ASD) Prediction using Machine Learning
 
 # Table of Contents
-        Overview
-        Demo
-        Features
-        Technologies Used
-        Installation
-        Usage
-        Contributing
-        License
-
 Overview
+Demo
+Features
+Technologies Used
+Installation
+Usage
+Contributing
+License
+
+# Overview
 
 This project focuses on detecting Autism Spectrum Disorder (ASD) in children using machine learning techniques. It utilizes facial analysis to predict ASD based on input images. The prediction model is built using a VGG architecture and deployed as a Flask web application.
-Demo
+# Demo
 
 Link to Live Demo
-Features
+# Features
 
     Detects ASD based on facial features extracted using computer vision techniques.
     Provides a web interface for uploading images and viewing prediction results.
     Utilizes a pre-trained VGG model for accurate prediction.
     Includes CSS and JavaScript for interactive front-end design.
 
-Technologies Used
+# Technologies Used
 
     Python
     TensorFlow / Keras
@@ -34,13 +34,13 @@ Technologies Used
 
 # Installation
 
-# Clone the repository:
+Clone the repository:
 
 
     git clone https://github.com/your-username/asd-prediction.git
     cd asd-prediction
 
-# Install dependencies:
+Install dependencies:
 
 
 
