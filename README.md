@@ -2,7 +2,7 @@
 Autism Spectrum Disorder (ASD) Prediction using Machine Learning
 Autism Spectrum Disorder (ASD) Prediction using Machine Learning
 
-Table of Contents
+# Table of Contents
 
     Overview
     Demo
@@ -33,52 +33,50 @@ Technologies Used
     Flask
     HTML, CSS, JavaScript
 
-Installation
+# Installation
 
-    Clone the repository:
-
-    bash
+    #Clone the repository:
 
 git clone https://github.com/your-username/asd-prediction.git
 cd asd-prediction
 
-Install dependencies:
+# Install dependencies:
 
-bash
+
 
     pip install -r requirements.txt
 
-Usage
+# Usage
 
     Prepare Dataset: Execute prepareData.py to gather and organize the dataset.
 
-    bash
+    
 
 python prepareData.py
 
 Data Preprocessing: Use data_preprocessing.py to preprocess the dataset.
 
-bash
+
 
 python data_preprocessing.py
 
 Train VGG Model: Train the VGG model using vgg_model.py.
 
-bash
+
 
 python vgg_model.py
 
 Run Flask Application: Start the Flask web application for ASD prediction.
 
-bash
+
 
     python app3.py
 
     Access the application at http://localhost:5000.
 
-Contributing
+#Contributing
 
 Contributions are welcome! Please fork the repository and submit pull requests.
 License
 
-This project is licensed under the MIT License. See the LICENSE file for more details.
+#This project is licensed under the MIT License. See the LICENSE file for more details.
