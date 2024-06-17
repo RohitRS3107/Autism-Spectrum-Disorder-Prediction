@@ -73,7 +73,7 @@ Run Flask Application: Start the Flask web application for ASD prediction.
 
     python app3.py
 
-    Access the application at http://localhost:5000.
+Access the application at http://localhost:5000.
 
 # Contributing
 
