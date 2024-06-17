@@ -3,15 +3,14 @@ Autism Spectrum Disorder (ASD) Prediction using Machine Learning
 Autism Spectrum Disorder (ASD) Prediction using Machine Learning
 
 # Table of Contents
-
-    Overview
-    Demo
-    Features
-    Technologies Used
-    Installation
-    Usage
-    Contributing
-    License
+        Overview
+        Demo
+        Features
+        Technologies Used
+        Installation
+        Usage
+        Contributing
+        License
 
 Overview
 
