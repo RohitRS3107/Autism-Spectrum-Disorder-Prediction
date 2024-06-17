@@ -35,10 +35,11 @@ Technologies Used
 
 # Installation
 
-    #Clone the repository:
+# Clone the repository:
 
-git clone https://github.com/your-username/asd-prediction.git
-cd asd-prediction
+
+    git clone https://github.com/your-username/asd-prediction.git
+    cd asd-prediction
 
 # Install dependencies:
 
@@ -74,9 +75,9 @@ Run Flask Application: Start the Flask web application for ASD prediction.
 
     Access the application at http://localhost:5000.
 
-#Contributing
+# Contributing
 
 Contributions are welcome! Please fork the repository and submit pull requests.
 License
 
-#This project is licensed under the MIT License. See the LICENSE file for more details.
+# This project is licensed under the MIT License. See the LICENSE file for more details.
