@@ -49,23 +49,23 @@ Technologies Used
 
 # Usage
 
-    Prepare Dataset: Execute prepareData.py to gather and organize the dataset.
+Prepare Dataset: Execute prepareData.py to gather and organize the dataset.
 
     
 
-python prepareData.py
+    python prepareData.py
 
 Data Preprocessing: Use data_preprocessing.py to preprocess the dataset.
 
 
 
-python data_preprocessing.py
+    python data_preprocessing.py
 
 Train VGG Model: Train the VGG model using vgg_model.py.
 
 
 
-python vgg_model.py
+    python vgg_model.py
 
 Run Flask Application: Start the Flask web application for ASD prediction.
 
@@ -80,4 +80,4 @@ Run Flask Application: Start the Flask web application for ASD prediction.
 Contributions are welcome! Please fork the repository and submit pull requests.
 License
 
-# This project is licensed under the MIT License. See the LICENSE file for more details.
+This project is licensed under the MIT License. See the LICENSE file for more details.
