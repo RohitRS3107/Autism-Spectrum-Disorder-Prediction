@@ -10,7 +10,7 @@ import tensorflow as tf
 app = Flask(__name__)
 
 # Define the directory to store uploaded images
-UPLOAD_FOLDER = '/home/thor/ASDUsingImage/uploads'
+UPLOAD_FOLDER = '/uploads'
 if not os.path.exists(UPLOAD_FOLDER):
     os.makedirs(UPLOAD_FOLDER)
 
@@ -18,7 +18,7 @@ if not os.path.exists(UPLOAD_FOLDER):
 ALLOWED_EXTENSIONS = {'png', 'jpg', 'jpeg', 'gif'}
 
 # Load the pre-trained model
-model = tf.keras.models.load_model('/home/thor/Downloads/vgg_model.h5')
+model = tf.keras.models.load_model('/vgg_model.h5')
 
 # Function to check if the file has an allowed extension
 def allowed_file(filename):
