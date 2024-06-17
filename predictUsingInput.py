@@ -1,6 +1,6 @@
 from tensorflow import keras as tf
 
-model = tf.models.load_model('/home/thor/Downloads/vgg_model(1).h5')
+model = tf.models.load_model('/vgg_model.h5')
 from load_image import image
 img = (input("Enter Path To Image "))
 
