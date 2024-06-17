@@ -1,85 +1,84 @@
 # Autism-Spectrum-Disorder-Prediction
 Autism Spectrum Disorder (ASD) Prediction using Machine Learning
 Autism Spectrum Disorder (ASD) Prediction using Machine Learning
+
+Table of Contents
+
+    Overview
+    Demo
+    Features
+    Technologies Used
+    Installation
+    Usage
+    Contributing
+    License
+
 Overview
 
-This project focuses on detecting Autism Spectrum Disorder (ASD) in children using machine learning techniques. It involves preparing the dataset, preprocessing the data, training a VGG model, and deploying a Flask web application for prediction.
-Project Structure
+This project focuses on detecting Autism Spectrum Disorder (ASD) in children using machine learning techniques. It utilizes facial analysis to predict ASD based on input images. The prediction model is built using a VGG architecture and deployed as a Flask web application.
+Demo
 
-bash
+Link to Live Demo
+Features
 
-.
-├── prepareData.py           # Script for preparing the dataset
-├── data_preprocessing.py    # Script for preprocessing the dataset
-├── vggModelUnit.py          # Unit tests for VGG model
-├── vgg_model.py             # Script defining the VGG model architecture
-├── app3.py                  # Flask application script for ASD prediction
-├── README.md                # This README file
-└── requirements.txt         # List of dependencies
+    Detects ASD based on facial features extracted using computer vision techniques.
+    Provides a web interface for uploading images and viewing prediction results.
+    Utilizes a pre-trained VGG model for accurate prediction.
+    Includes CSS and JavaScript for interactive front-end design.
 
 Technologies Used
 
     Python
-    Flask (for web application)
-    TensorFlow / Keras (for machine learning)
-    HTML, CSS, JavaScript (for web interface)
+    TensorFlow / Keras
+    Flask
+    HTML, CSS, JavaScript
 
-Getting Started
 Installation
 
     Clone the repository:
 
     bash
 
-git clone https://github.com/your-username/your-repository.git
-cd your-repository
+git clone https://github.com/your-username/asd-prediction.git
+cd asd-prediction
 
 Install dependencies:
 
+bash
+
     pip install -r requirements.txt
 
-Steps to Run
+Usage
 
-Follow these steps in sequence to prepare the dataset, preprocess the data, train the VGG model, and run the Flask web application:
-
-    Prepare Dataset
-
-        Execute prepareData.py to gather and organize the dataset. Ensure the dataset is structured appropriately for further processing.
-
-        bash
-
-    python prepareData.py
-
-Data Preprocessing
-
-    Use data_preprocessing.py to preprocess the dataset, including data cleaning, feature extraction, and normalization.
+    Prepare Dataset: Execute prepareData.py to gather and organize the dataset.
 
     bash
 
-    python data_preprocessing.py
+python prepareData.py
 
-VGG Model Unit Tests
+Data Preprocessing: Use data_preprocessing.py to preprocess the dataset.
 
-    Run vggModelUnit.py to execute unit tests for the VGG model. Ensure that the model architecture and functionalities are working correctly.
+bash
 
-    bash
+python data_preprocessing.py
 
-    python vggModelUnit.py
+Train VGG Model: Train the VGG model using vgg_model.py.
 
-Train VGG Model
+bash
 
-    Train the VGG model using vgg_model.py to learn from the preprocessed dataset. Adjust hyperparameters as necessary for optimal performance.
+python vgg_model.py
 
-    bash
+Run Flask Application: Start the Flask web application for ASD prediction.
 
-    python vgg_model.py
+bash
 
-Run Flask Application
+    python app3.py
 
-    Finally, run app3.py to start the Flask web application for ASD prediction.
+    Access the application at http://localhost:5000.
 
-    bash
+Contributing
 
-python app3.py
+Contributions are welcome! Please fork the repository and submit pull requests.
+License
 
-Access the application via a web browser at http://localhost:5000.
+This project is licensed under the MIT License. See the LICENSE file for more details.
