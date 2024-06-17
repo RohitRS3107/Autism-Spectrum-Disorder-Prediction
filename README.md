@@ -20,17 +20,17 @@ This project focuses on detecting Autism Spectrum Disorder (ASD) in children usi
 Link to Live Demo
 # Features
 
-    Detects ASD based on facial features extracted using computer vision techniques.
-    Provides a web interface for uploading images and viewing prediction results.
-    Utilizes a pre-trained VGG model for accurate prediction.
-    Includes CSS and JavaScript for interactive front-end design.
+Detects ASD based on facial features extracted using computer vision techniques.
+Provides a web interface for uploading images and viewing prediction results.
+Utilizes a pre-trained VGG model for accurate prediction.
+Includes CSS and JavaScript for interactive front-end design.
 
 # Technologies Used
 
-    Python
-    TensorFlow / Keras
-    Flask
-    HTML, CSS, JavaScript
+Python
+TensorFlow / Keras
+Flask
+HTML, CSS, JavaScript
 
 # Installation
 
